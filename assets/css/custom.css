@@ -1,0 +1,7 @@
+div.thumbnail_card img {
+  object-fit: contain
+}
+
+div.thumbnail img {
+  object-fit: contain
+}

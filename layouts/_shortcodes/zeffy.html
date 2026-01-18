@@ -1,0 +1,37 @@
+
+<div style="float:left">
+  <style>
+    button.zeffy-btn {
+      background-color: #0F0E5A;
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.25px;
+      color: #000000;
+      border: none;
+      border-radius: 15px;
+      box-sizing: border-box;
+      color: white;
+      cursor: pointer;
+      left: calc(50% - 75px);
+      margin: 10px;
+      min-height: 50px;
+      min-width: 150px;
+      padding: 5px 10px;
+      text-transform: uppercase;
+      top: calc(50% - 25px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  {{ with .Params.message }}
+  {{ . | $.Page.RenderString }}
+  {{ else }}
+  Donate with zeffy (100% goes to Cathedral):
+  {{ end }}
+  <button class="zeffy-btn" zeffy-form-link="{{ .Get "zeffy-form-link" }}">
+    <img class="not-prose" alt="Zeffy Icon" height="24" width="80" src="http://zeffy.com/assets/icons/zeffy.svg" alt="Donate with zeffy"/>
+  </button>
+</div>

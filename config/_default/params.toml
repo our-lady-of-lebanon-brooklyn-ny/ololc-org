@@ -1,0 +1,28 @@
+colorScheme = "autumn"
+disableImageOptimization = true
+defaultBackgroundImage = "OurLadyofLebanonExt.jpg"
+favicon = "favicon.ico"
+mainSections = [ "bulletins", "events" ]
+enableSearch = false
+
+[article]
+  showPagination = false
+
+[header]
+  layout = "basic"
+
+[list]
+  showHero = true
+  heroStyle = "background"
+
+[homepage]
+  layout = "background"
+  cardView = false
+  heroStyle = "basic"
+  showRecent = true
+  layoutBackgroundBlur = false
+  disableHeroImageFilter = true
+
+[footer]
+  showCopyright = false
+  showThemeAttribution = false
