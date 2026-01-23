@@ -78,12 +78,13 @@ jobs:
           FTP_USER: ${{vars.FTP_USER}}
           FTP_PASS: ${{secrets.FTP_PASS}}
         run: |
+          # Run lftp to mirror ./public to ftp host
           cd public
           lftp <<-EOF
           	set ssl:check-hostname no
           	open ${FTP_HOST} -u ${FTP_USER},${FTP_PASS}
           	cd www/new
-          	mirror -R
+          	mirror -R --verbose=1
           	exit
           EOF
 
