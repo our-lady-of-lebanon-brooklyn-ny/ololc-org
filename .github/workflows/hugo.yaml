@@ -64,7 +64,7 @@ jobs:
 
       - name: Check PDF
         run: |
-          ls -l static/bulletins content/bulletins public/bulletins
+          ls -l content/bulletins public/bulletins
 
           cd public/bulletins
           md5sum --check <(
