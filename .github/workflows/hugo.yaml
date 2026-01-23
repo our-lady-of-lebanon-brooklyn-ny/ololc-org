@@ -61,7 +61,7 @@ jobs:
           hugo build
 
       - name: Check PDF
-        run:
+        run: |
           cd public/bulletins
           md5sum --check <(
             cd ../../content/bulletins
