@@ -43,13 +43,35 @@ jobs:
 
           echo "${HOME}/.local/hugo" >> "${GITHUB_PATH}"
 
+      - name: Install lftp
+        run: |
+          apt-get install -y lftp
+
       - name: Verify installations
         run: |
           echo "Hugo: $(hugo version)"
+          echo 'lftp:'
+          echo '-----'
+          lftp --version
+          echo '-----'
 
       - name: Build the site
         run: |
           hugo build
+
+      - name: Publish to ololc.org
+        env:
+          FTP_USER: ${{vars.FTP_USER}}
+          FTP_PASSWORD: ${{secrets.FTP_PASSWORD}}
+        run: |
+          cd public
+          lftp <<-EOF
+          	set ssl:check-hostname no
+          	open ololc.org -u ${FTP_USER},${FTP_PASSWD}
+          	cd www/new
+          	mirror -R
+          	exit
+          EOF
 
       - name: Upload artifact
         uses: actions/upload-artifact@v6
