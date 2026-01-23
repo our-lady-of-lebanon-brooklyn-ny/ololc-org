@@ -56,15 +56,22 @@ jobs:
           lftp --version | cat -n
           echo '-----'
 
+      - name: Relocate bulletin PDFs
+        run: |
+          mkdir -p static/bulletins
+          mv content/bulletins/*.pdf static/bulletins
+
       - name: Build the site
         run: |
           hugo build
 
       - name: Check PDF
         run: |
+          ls -l static/bulletins content/bulletins public/bulletins
+
           cd public/bulletins
           md5sum --check <(
-            cd ../../content/bulletins
+            cd ../../static/bulletins
             md5sum *.pdf
           )
 
