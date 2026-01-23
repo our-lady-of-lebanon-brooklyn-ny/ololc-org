@@ -45,7 +45,7 @@ jobs:
 
       - name: Install lftp
         run: |
-          apt-get install -y lftp
+          sudo apt-get install -y lftp
 
       - name: Verify installations
         run: |
