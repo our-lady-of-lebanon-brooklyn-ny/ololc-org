@@ -60,6 +60,14 @@ jobs:
         run: |
           hugo build
 
+      - name: Check PDF
+        run:
+          cd public/bulletins
+          md5sum --check <(
+            cd ../../content/bulletins
+            md5sum *.pdf
+          )
+
       - name: Publish to ololc.org
         env:
           FTP_HOST: ${{vars.FTP_HOST}}
@@ -69,9 +77,7 @@ jobs:
           cd public
           lftp <<-EOF
           	set ssl:check-hostname no
-                debug 5
           	open ${FTP_HOST} -u ${FTP_USER},${FTP_PASS}
-                debug 5
           	cd www/new
           	mirror -R
           	exit
