@@ -62,14 +62,15 @@ jobs:
 
       - name: Publish to ololc.org
         env:
+          FTP_HOST: ${{vars.FTP_HOST}}
           FTP_USER: ${{vars.FTP_USER}}
-          FTP_PASSWORD: ${{secrets.FTP_PASSWORD}}
+          FTP_PASS: ${{secrets.FTP_PASS}}
         run: |
           cd public
           lftp <<-EOF
           	set ssl:check-hostname no
                 debug 5
-          	open ololc.org -u ${FTP_USER},${FTP_PASSWD}
+          	open ${FTP_HOST} -u ${FTP_USER},${FTP_PASS}
                 debug 5
           	cd www/new
           	mirror -R
