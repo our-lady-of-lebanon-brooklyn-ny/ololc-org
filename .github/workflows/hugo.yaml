@@ -43,9 +43,9 @@ jobs:
 
           echo "${HOME}/.local/hugo" >> "${GITHUB_PATH}"
 
-      - name: Install lftp
+      - name: Install lftp and poppler
         run: |
-          sudo apt-get install -y lftp
+          sudo apt-get install -y lftp poppler-utils
 
       - name: Verify installations
         run: |
@@ -56,14 +56,11 @@ jobs:
           lftp --version | cat -n
           echo '-----'
 
-      - name: Relocate bulletin PDFs
-        run: |
-          mkdir -p static/bulletins
-          mv content/bulletins/*.pdf static/bulletins
-
       - name: Build the site
         run: |
           hugo build
+
+          cp content/bulletins/*.pdf public/bulletins
 
       - name: Check PDF
         run: |
@@ -71,7 +68,7 @@ jobs:
 
           cd public/bulletins
           md5sum --check <(
-            cd ../../static/bulletins
+            cd ../../content/bulletins
             md5sum *.pdf
           )
 
