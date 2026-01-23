@@ -49,10 +49,11 @@ jobs:
 
       - name: Verify installations
         run: |
-          echo "Hugo: $(hugo version)"
-          echo 'lftp:'
+          echo 'Hugo:'
+          hugo version   | cat -n
           echo '-----'
-          lftp --version
+          echo 'lftp:'
+          lftp --version | cat -n
           echo '-----'
 
       - name: Build the site
@@ -67,7 +68,9 @@ jobs:
           cd public
           lftp <<-EOF
           	set ssl:check-hostname no
+                debug 5
           	open ololc.org -u ${FTP_USER},${FTP_PASSWD}
+                debug 5
           	cd www/new
           	mirror -R
           	exit
