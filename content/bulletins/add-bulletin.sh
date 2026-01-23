@@ -1,6 +1,5 @@
 #!/bin/bash
 
-set -x
 pdf="$1"
 
 pdfName="$(sed -e 's/.pdf//' <<<"${pdf}" )"
