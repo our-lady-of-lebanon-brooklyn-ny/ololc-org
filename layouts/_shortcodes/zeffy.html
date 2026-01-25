@@ -29,7 +29,7 @@
   {{ with .Params.message }}
   {{ . | $.Page.RenderString }}
   {{ else }}
-  Donate with zeffy (100% goes to Cathedral):
+  Donate with zeffy<br/>(100% goes to Cathedral)
   {{ end }}
   <button class="zeffy-btn" zeffy-form-link="{{ .Get "zeffy-form-link" }}">
     <img class="not-prose" alt="Zeffy Icon" height="24" width="80" src="http://zeffy.com/assets/icons/zeffy.svg" alt="Donate with zeffy"/>

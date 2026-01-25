@@ -16,12 +16,21 @@ enableSearch = false
   heroStyle = "background"
 
 [homepage]
+  #layout = "hero" "profile" "page" "hero" "card"
+  #layout = "card"
   layout = "background"
+  #layout = "card"
   cardView = false
-  heroStyle = "basic"
+  #heroStyle = "big" "basic" "background" "thumbAndBackground"
+  heroStyle = "background"
   showRecent = true
   layoutBackgroundBlur = false
   disableHeroImageFilter = true
+  #homepageImage = "OurLadyofLebanonExt.jpg"
+  #homepageImage = "Choirwindow.jpg"
+  #homepageImage = "NormandieMedallions.jpg"
+  #homepageImage = "mural2.jpg"
+  homepageImage = "OurLadyLebanonHenryStDoors.jpg"
 
 [footer]
   showCopyright = false
