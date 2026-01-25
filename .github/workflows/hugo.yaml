@@ -83,6 +83,7 @@ jobs:
           lftp <<-EOF
           	set ssl:check-hostname no
           	open ${FTP_HOST} -u ${FTP_USER},${FTP_PASS}
+          	cd /www
           	mirror --reverse --verbose=1 --no-perms --no-umask --ignore-time
           	exit
           EOF
