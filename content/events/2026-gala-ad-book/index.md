@@ -18,3 +18,7 @@ Contact Mike Naber (917) 612-4004 if you have any questions.
 
 [![Gala Ad Book Form](ad-book-form-2026.jpg)](ad-book-form-2026.pdf)
 
+
+{{<  donate >}}
+  {{< zeffy zeffy-form-link="https://www.zeffy.com/en-US/ticketing/2026-st-maron-gala" message="## Purchase tickets online:" >}}
+{{< /donate >}}

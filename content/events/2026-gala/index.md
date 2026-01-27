@@ -25,6 +25,6 @@ For reservations, please contact
 {{< image path=st-maron-2026-1224x1584.png width=600 alt="Gala Brochure" >}}
 
 {{<  donate >}}
-  {{< zeffy zeffy-form-link="https://www.zeffy.com/en-US/ticketing/2026-myo-super-bowl-party" message="## Purchase tickets online:" >}}
+  {{< zeffy zeffy-form-link="https://www.zeffy.com/en-US/ticketing/2026-st-maron-gala" message="## Purchase tickets online:" >}}
 {{< /donate >}}
 
