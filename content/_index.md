@@ -15,7 +15,7 @@ Sunday: 9:00 & 11:30 {{< am >}}
 
 {{< block-link href="https://www.youtube.com/@OurLadyofLebanonBrooklynNY" >}}
   Watch our Services online
-  {{< image path=youtube.png width=35 alt="YouTube" class="place-self-center not-prose">}}
+  {{< image path=youtube.png width=50 alt="YouTube" class="place-self-center not-prose">}}
 {{< /block-link >}}
 [Divine Liturgy Text (Sundays)](sunday.pdf)
 
