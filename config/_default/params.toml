@@ -2,7 +2,8 @@ colorScheme = "blowfish"
 disableImageOptimization = true
 defaultBackgroundImage = "OurLadyofLebanonExt.jpg"
 favicon = "favicon.ico"
-mainSections = [ "bulletins", "events" ]
+#mainSections = [ "bulletins", "events" ]
+mainSections = [ "events" ]
 enableSearch = false
 
 [article]
