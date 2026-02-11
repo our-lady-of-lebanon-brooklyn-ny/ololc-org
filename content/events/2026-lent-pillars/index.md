@@ -21,13 +21,17 @@ See below for the upcoming dates, topics and presenters at 8pm:
 
 Attached is the flyer, and below you will find the link to register through the Saint Sharbel Spiritual Life Center. Please share on your social media platforms, bulletins, and with your parishioners during your announcements, and invite them to join by registering below so that they can receive the Zoom link and recordings. The recordings will also be uploaded on the Saint Sharbel Center website.
 
-{{< button href="[#button](https://saintsharbelcenter.org/zoom-series)" >}}
+{{< button href="https://saintsharbelcenter.org/zoom-series" target="_blank" >}}
 Click to register
 {{< /button >}}
+
 (You can also register by scanning the QR Code on the attached flyer)
 
 If you have any questions, please contact our Maronite Sisters at [sister@maroniteservants.org](email:sister@maroniteservants.org).
 
-Hopefully many of you can join and benefit from these interactive sessions. Thank you.
+Hopefully many of you can join and benefit from these interactive sessions.
 
-+ Gregory
+Thank you.  
+\+ Gregory
+
+![Flyer](flyer.jfif)
