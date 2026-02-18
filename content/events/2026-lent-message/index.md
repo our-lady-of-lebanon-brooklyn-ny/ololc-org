@@ -15,7 +15,7 @@ Dear Brother Priests, Deacons/Subdeacons, Consecrated Men & Women, Lay Faithful,
 
 Attached please find in Arabic and English the Lenten Message from our Patriarch, Bechara Peter Cardinal Rai for your Lenten journey. I pray that each of us will draw closer to Christ Jesus this Lent and always.
 
-+ Gregory
+\+ Gregory
 
 ---
 
