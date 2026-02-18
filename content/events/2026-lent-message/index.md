@@ -21,7 +21,7 @@ Attached please find in Arabic and English the Lenten Message from our Patriarch
 
 {{< image path=message.png width=600 alt="Lenten Message" >}}
 
-{{< button href="https://www.stmaron.org/s/2026-Patriarchal-message-for-great-Lent.pdf" target="_blank" >}}
+{{< button href="https://www.stmaron.org/s/Lenten_Message_2026_English.pdf" target="_blank" >}}
 English
 {{< /button >}}
 &nbsp;
