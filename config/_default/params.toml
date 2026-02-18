@@ -25,6 +25,7 @@ enableSearch = false
   #heroStyle = "big" "basic" "background" "thumbAndBackground"
   heroStyle = "background"
   showRecent = true
+  showRecentItems = 6
   layoutBackgroundBlur = false
   disableHeroImageFilter = true
   #homepageImage = "OurLadyofLebanonExt.jpg"

@@ -15,14 +15,10 @@ Located at
 Tuesday–Saturday: 10:00 {{< am >}} *(English)*  
 Sunday: 9:00 *(English)* & 11:30 {{< am >}} *(mixed Arabic and English)*
 
-### Ash Monday
-Monday, February 16: 7:30 {{< pm >}} *(mixed Arabic and English)*
-
-[Divine Liturgy Text (Ash monday)](doc/monday.pdf)
-
 ## Rite of Blessing and Benediction with the Holy Cross
 Fridays of Lent: 7:30 {{< pm >}} *(mixed Arabic and English)*
 
+[Text for the Stations of the Cross](stations.pdf)
 
 ***
 
