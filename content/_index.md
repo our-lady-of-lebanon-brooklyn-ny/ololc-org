@@ -18,7 +18,7 @@ Sunday: 9:00 *(English)* & 11:30 {{< am >}} *(mixed Arabic and English)*
 ## Rite of Blessing and Benediction with the Holy Cross
 Fridays of Lent: 7:30 {{< pm >}} *(mixed Arabic and English)*
 
-[Text for the Stations of the Cross](stations.pdf)
+[Text for the Stations and Benediction of the Cross](stations.pdf)
 
 ***
 
