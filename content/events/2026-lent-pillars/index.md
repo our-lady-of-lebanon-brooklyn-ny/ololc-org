@@ -1,6 +1,6 @@
 ---
 title: "Maronite Faith Formation Series for Great Lent: Prayer, Fasting & Almsgiving"
-date: 2026-02-19
+date: 2026-02-26
 publishDate: 2026-02-11
 expiryDateate: 2026-03-07
 draft: false
