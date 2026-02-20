@@ -44,3 +44,6 @@ Fridays of Lent: 7:30 {{< pm >}} *(mixed Arabic and English)*
 
 
 ***
+
+## News from the Vatican:
+{{< vatican >}}
