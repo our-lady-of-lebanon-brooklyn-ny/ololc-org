@@ -1,5 +1,5 @@
 ---
-title: "Save the Date — Mother's Day Hafli'
+title: "Save the Date — Mother's Day Hafli"
 date: 2026-05-08
 publishDate: 2026-03-24
 expiryDate: 2026-05-15
