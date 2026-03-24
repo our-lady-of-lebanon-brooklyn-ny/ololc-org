@@ -15,4 +15,4 @@ showSummary: true
 
 {{< image path=sponsor.png width=600 alt="Sponsor &amp; Volunteers" >}}
 
-{{< zeffy zeffy-form-link="https://www.zeffy.com/en-US/ticketing/festival-sponsor" message="## For Banners & Donations" >}}
+{{< zeffy zeffy-form-link="https://www.zeffy.com/en-US/ticketing/festival-sponsors" message="## For Banners & Donations" >}}
