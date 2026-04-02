@@ -28,11 +28,6 @@ Sunday: 9:00 *(English)* & 11:30 {{< am >}} *(mixed Arabic and English)*
 |**Sunday**, April 5                          | **11:30 {{< am >}}** Sunday of the Glorious Resurrection and the Rite of Peace {{< br >}}St. Robert of Molesme |                                                                                                                                               |
 
 
-## Rite of Blessing and Benediction with the Holy Cross
-Fridays of Lent: 7:30 {{< pm >}} *(mixed Arabic and English)*
-
-[Text for the Stations and Benediction of the Cross](stations.pdf)
-
 ***
 
 ## Livestream
