@@ -15,19 +15,6 @@ Located at
 Tuesday–Saturday: 10:00 {{< am >}} *(English)*  
 Sunday: 9:00 *(English)* & 11:30 {{< am >}} *(mixed Arabic and English)*
 
-### Passion Week Divine Liturgy Schedule
-
-|     |    |
-|---------------------------------------------|---------------------------------------------------|
-|**Monday** of Passion Week, March 30         | **7:30 {{< pm >}}** Divine Liturgy {{< br >}} St. John Climacus       |
-|**Tuesday** of Passion Week, March 31        | **7:30 {{< pm >}}** Divine Liturgy of the Coming to the Harbor {{< br >}} Pope St. Lucius |
-|**Wednesday** of Passion Week, April 1       | **7:30 {{< pm >}}** Liturgy of the Rite of the Lamp (Blessing and Imposition of Oil) {{< br >}}&nbsp;&nbsp;&nbsp;for Ikbal Nassar by Subdeacon Norbert & Leila Vogl {{<br >}}St. Mary of Egypt |
-|**Thursday** of the Mysteries, April 2       | **7:30 {{< pm >}}** Divine Liturgy of the Rite of the Washing of the Feet {{< br >}}Confession &amp; Exposition of the Blessed Sacrament until 12 Midnight {{< br >}}St. Aphian and his brother, St. Aedesuis |
-|**Great Friday of the Crucifixion**, April 3 | **10 {{< am >}}** Liturgy of the Anaphora of the Signing of the Chalice {{< br >}}**7:30 {{< pm >}}** Liturgy of the Adoration of the Cross{{< br >}}Isaiah and Ezekiel the Prophets |
-|**Great Saturday of the Light**, April 4     | **11 {{< am >}}** Prayer of Forgiveness {{< br >}}Pope St. Anicetus {{< br >}}**12 Midnight** Glorious Resurrection Liturgy and the Rite of Peace |
-|**Sunday**, April 5                          | **11:30 {{< am >}}** Sunday of the Glorious Resurrection and the Rite of Peace {{< br >}}St. Robert of Molesme |                                                                                                                                               |
-
-
 ***
 
 ## Livestream
