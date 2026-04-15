@@ -14,3 +14,5 @@ showSummary: true
 ### May 8, 2026
 
 {{< image path=event.png width=600 alt="Dinner and Dancing" >}}
+
+{{< donate >}} {{< zeffy zeffy-form-link="https://www.zeffy.com/en-US/ticketing/2026-mothers-day-party" message="## Purchase tickets online:" >}} {{< /donate >}}
