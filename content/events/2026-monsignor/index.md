@@ -23,3 +23,9 @@ Banquet to follow in the Church Hall
 
 {{< image path=invite.png width=600 alt="Invitation" >}}
 
+---
+
+{{< youtube ZqBA_Lj_5ls >}}
+
+---
+
