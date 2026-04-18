@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Now and at the hour of our death: End Of Life Matters"
 date: 2026-04-28
 publishDate: 2026-04-18
 expiryDate: 2026-05-01
