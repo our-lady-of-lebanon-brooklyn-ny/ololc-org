@@ -2,7 +2,7 @@
 title: "Lenten Observances 2026"
 date: 2026-02-16
 publishDate: 2026-02-01
-expiryDateate: 2026-04-05
+expiryDate: 2026-04-05
 draft: false
 showHero: true
 showSummary: true

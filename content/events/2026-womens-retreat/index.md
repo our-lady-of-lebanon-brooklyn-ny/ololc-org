@@ -2,7 +2,7 @@
 title: "Flourish — Second Annual Women's Retreat"
 date: 2026-04-17
 publishDate: 2026-02-11
-expiryDateate: 2026-04-21
+expiryDate: 2026-04-21
 draft: false
 showHero: true
 showSummary: true

@@ -2,7 +2,7 @@
 title: "99th Annual St. Maron's Day Banquet Ad Book"
 date: 2026-02-07
 publishDate: 2026-01-01
-expiryDateate: 2026-03-07
+expiryDate: 2026-03-07
 draft: false
 showHero: true
 showSummary: true
