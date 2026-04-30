@@ -23,5 +23,7 @@ Please join a ZOOM meeting on **Tuesday April 28 at 8:00pm** as we discuss these
 Zoom Meeting id: `848 1578 7757`
 passcode: `112424`
 
+{{< youtube ZiCN5PPQhKk >}}
+
 {{< image path=flyer.png width=600 alt="Zoom Brochure" >}}
 
