@@ -61,15 +61,16 @@ jobs:
           hugo build
 
           cp content/bulletins/*.pdf public/bulletins
+          cp content/about-us/scholarships/*.pdf public/about-us/scholarships
 
       - name: Check PDF
         run: |
-          ls -l content/bulletins public/bulletins
-
-          cd public/bulletins
-          md5sum --check <(
-            cd ../../content/bulletins
-            md5sum *.pdf
+          (
+            cd public
+            md5sum --verbose --check <(
+              cd ../../content
+              md5sum {bulletins,about-us/scholarships}/*.pdf
+            )
           )
 
       - name: Publish to ololc.org
