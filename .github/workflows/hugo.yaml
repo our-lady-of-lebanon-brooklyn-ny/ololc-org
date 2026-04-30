@@ -66,9 +66,10 @@ jobs:
       - name: Check PDF
         run: |
           (
-            cd public
+            workdir="$(pwd)"
+            cd "${workdir}/public"
             md5sum --verbose --check <(
-              cd ../../content
+              cd "${workdir}/content"
               md5sum {bulletins,about-us/scholarships}/*.pdf
             )
           )
