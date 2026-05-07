@@ -12,4 +12,4 @@ heroStyle: basic
 Monsignor Dominique will be hosting a pilgrimage through Southern France, September 29-October 9.
 Contact Marleine Aflak or Tony Tannousis to register.
 
-![Flyer](flyer.jfif)
+![Flyer](flyer.png)
