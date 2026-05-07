@@ -15,6 +15,9 @@ Located at
 Tuesday–Saturday: 10:00 {{< am >}} *(English)*  
 Sunday: 9:00 *(English)* & 11:30 {{< am >}} *(mixed Arabic and English)*
 
+### The Ascension of Our Lord (Holy Day of Obligation)
+Thursday, May 14, 2026: 7:30 {{< pm >}}
+
 ***
 
 ## Livestream
