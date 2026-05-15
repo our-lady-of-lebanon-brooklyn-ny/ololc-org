@@ -62,6 +62,8 @@ jobs:
 
           cp content/bulletins/*.pdf public/bulletins
           cp content/about-us/scholarships/*.pdf public/about-us/scholarships
+          mkdir public/doc
+          cp static/sunday.pdf public/doc
 
       - name: Check PDF
         run: |
