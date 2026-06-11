@@ -43,9 +43,16 @@ jobs:
 
           echo "${HOME}/.local/hugo" >> "${GITHUB_PATH}"
 
-      - name: Install lftp and poppler
+      - name: Install lftp
         run: |
-          sudo apt-get install -y lftp poppler-utils
+          # Installing lftp - Sophisticated file transfer program
+          sudo apt-get update
+          sudo apt-get install -y lftp
+
+      - name: Install poppler utils
+        run: |
+          # Installing poppler-utils PDF manipulation library
+          sudo apt-get install -y poppler-utils
 
       - name: Verify installations
         run: |
