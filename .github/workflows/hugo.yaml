@@ -45,8 +45,14 @@ jobs:
 
       - name: Install lftp
         run: |
+          # Installing lftp - Sophisticated file transfer program
           sudo apt-get update
-          sudo apt-get install -y lftp poppler-utils
+          sudo apt-get install -y lftp
+
+      - name: Install poppler utils
+        run: |
+          # Installing poppler-utils PDF manipulation library
+          sudo apt-get install -y poppler-utils
 
       - name: Verify installations
         run: |
