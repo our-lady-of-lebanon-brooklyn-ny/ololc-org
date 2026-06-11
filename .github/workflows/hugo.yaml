@@ -45,7 +45,8 @@ jobs:
 
       - name: Install lftp
         run: |
-          sudo apt-get install -y lftp
+          sudo apt-get update
+          sudo apt-get install -y lftp poppler-utils
 
       - name: Verify installations
         run: |
