@@ -15,6 +15,10 @@ Located at
 Tuesday–Saturday: 10:00 {{< am >}} *(English)*  
 Sunday: 9:00 *(English)* & 11:30 {{< am >}} *(mixed Arabic and English)*
 
+### The Feast of the Assumption of the Virgin Mary
+Saturday, August 15, 2026
+10:00 {{< am >}} *(English)*, 7:30 {{< pm >}} *(mixed Arabic and English)*
+
 ***
 
 ## Livestream
