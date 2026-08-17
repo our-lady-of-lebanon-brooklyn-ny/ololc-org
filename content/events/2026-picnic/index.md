@@ -18,7 +18,7 @@ With complimentary Hot Dogs, Hamburgers, Fruit, Soda and Water.
 
 BYOB (Glass containers are prohibited at the park).
 
-*Where:* Miller Field Park, 801 New Dorp Ln, Staten Island, NY 10306
+*Where:* Miller Field Park, 801 New Dorp Ln, Staten Island, NY 10306  
 *When:* Sunday, September 6, 2026, 10 {{< am >}} to 6 {{< pm >}}.
 
 Divine Liturgy at 11:30 {{< am >}}.
