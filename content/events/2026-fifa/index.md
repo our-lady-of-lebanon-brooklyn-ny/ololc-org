@@ -2,7 +2,7 @@
 title: "FIFA World Cup Watch Party"
 date: 2026-07-19
 publishDate: 2026-07-16
-expiryDateate: 2026-07-24
+expiryDate: 2026-07-24
 draft: false
 showHero: true
 showSummary: true
