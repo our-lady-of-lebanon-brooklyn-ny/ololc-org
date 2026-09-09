@@ -2,7 +2,7 @@
 title: "Maronite Faith Formation Series for the Season of the Glorious Cross"
 date: 2026-09-10
 publishDate: 2026-09-09
-expiryDate: 2026-09-31
+expiryDate: 2026-09-30
 draft: false
 showHero: true
 showSummary: true
