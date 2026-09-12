@@ -10,7 +10,7 @@ showSummary: true
 ---
 
 The Ordination of *Deacon Nadim Khaled* to the *Order of Priests* by the Imposition of Hands of *The Most Reverend Gregory Mansour*
-will take place Saturday, September 26, 2026 at 5 {{< pm >}} EET, 10 <<{ am >}} EDT.
+will take place Saturday, September 26, 2026 at 5 {{< pm >}} EET, 10 {{< am >}} EDT.
 
 St. Stephen the First Martyr Maronite Church, Lehfed, Lebanon.
 
