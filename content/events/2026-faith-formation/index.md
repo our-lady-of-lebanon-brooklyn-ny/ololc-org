@@ -15,9 +15,8 @@ The [Maronite Servants of Christ the Light](https://www.maroniteservants.org/) w
 Season of the Glorious Cross starting *Thursday September 10* in collaboration with the [Saint Sharbel Center](https://saintsharbelcenter.org/).
 The presenter for these three zoom sessions will be Chorbishop Seely Beggiani, former Rector of the Maronite Seminary.
 
-See below for the upcoming dates, topics and presenters at 8pm: 
-
-* September 10 -- The Stages of Faith
+See below for the upcoming dates, topics and presenters at 8pm:
+* September 10 -- [The Stages of Faith](https://www.youtube.com/watch?v=Yp1XQO6K_GU)
 * September 17 -- Transformation in the Spirit
 * September 24 -- Maturity in Christ
 
@@ -35,5 +34,8 @@ I know you will benefit from these informative sessions.  Thank you.
 
 Thank you.  
 \+ Gregory
+
+---
+{{< youtube Yp1XQO6K_GU >}}
 
 ![Flyer](flyer.png)
