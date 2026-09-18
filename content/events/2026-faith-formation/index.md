@@ -17,7 +17,7 @@ The presenter for these three zoom sessions will be Chorbishop Seely Beggiani, f
 
 See below for the upcoming dates, topics and presenters at 8pm:
 * September 10 -- [The Stages of Faith](https://www.youtube.com/watch?v=Yp1XQO6K_GU)
-* September 17 -- Transformation in the Spirit
+* September 17 -- [Transformation in the Spirit](https://youtu.be/Nx1XAXDqgxI)
 * September 24 -- Maturity in Christ
 
 Attached is the flyer, and below you will find the link to register through the Saint Sharbel Spiritual Life Center. Please share on your social media platforms, bulletins, and with your parishioners during your announcements, and invite them to join by registering below so that they can receive the Zoom link and recordings. The recordings will also be uploaded on the Saint Sharbel Center website.
@@ -37,5 +37,6 @@ Thank you.
 
 ---
 {{< youtube Yp1XQO6K_GU >}}
+{{< youtube Nx1XAXDqgxI >}}
 
 ![Flyer](flyer.png)
