@@ -15,4 +15,4 @@ Featuring Lebanese sweets such as Baklava, Cookies, Halawet El Jeben, Kaak, Maam
 Sunday, September 27, 10 {{< am >}} to 5 {{< pm >}}.
 ---
 
-{{< image path=featured.png width=600 alt="Flyer" >}}
+{{< image path=flyer.png width=600 alt="Flyer" >}}

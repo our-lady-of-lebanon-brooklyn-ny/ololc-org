@@ -20,4 +20,4 @@ The ordination will also be live broadcasted on [Facebook](https://www.facebook.
 
 ---
 
-{{< image path=featured.png width=600 alt="Invitation" >}}
+{{< image path=flyer.png width=600 alt="Invitation" >}}
