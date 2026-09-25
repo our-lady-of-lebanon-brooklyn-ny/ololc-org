@@ -1,18 +1,20 @@
 ---
-title: "MYO Bake Sale"
+title: "MCF -- Maronite Catholic Formation"
 date: 2026-09-27
 publishDate: 2026-09-25
-expiryDate: 2026-09-28
+expiryDate: 2027-05-31
 draft: false
 showHero: true
 heroStyle: basic
 showSummary: true
 ---
-Please Support Our MYO Bake Sale to raise money for attending the MYO retreat.
+Religion class for grades Pre-K to 8 will soon begin.  Please register your children.
+Classes will be held following the Sunday 11:30{{< am >}} Divine Liturgy in the hall.
 
-Featuring Lebanese sweets such as Baklava, Cookies, Halawet El Jeben, Kaak, Maamouf, Knefe, Sfouf and more!
+{{< button href="https://docs.google.com/forms/d/e/1FAIpQLSdS5sDuiFxRiydp-c4pjzcQ2YSKhAEb1FJiMjCRWmMz2HAo3A/viewform?usp=sharing&ouid=105982630268479799879" target="_blank" >}}
+Click to register
+{{< /button >}}
 
-Sunday, September 27, 10 {{< am >}} to 5 {{< pm >}}.
 ---
 
 {{< image path=featured.png width=600 alt="Flyer" >}}
