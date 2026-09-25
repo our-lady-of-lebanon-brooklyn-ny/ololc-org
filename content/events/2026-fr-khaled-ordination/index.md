@@ -16,6 +16,8 @@ St. Stephen the First Martyr Maronite Church, Lehfed, Lebanon.
 
 Ordination will be live broadcasted by [Charity TV](https://www.charityradiotv.org/stream/livetv.html).
 
+The ordination will also be live broadcasted on [Facebook](https://www.facebook.com/share/19HsoPK5Cg/?mibextid=wwXIfr).
+
 ---
 
 {{< image path=featured.png width=600 alt="Invitation" >}}
