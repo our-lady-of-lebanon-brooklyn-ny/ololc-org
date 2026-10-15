@@ -2,7 +2,7 @@
 title: "Ordination of Deacon Nadim Khaled to the Order of Priests"
 date: 2026-09-26
 publishDate: 2026-09-11
-expiryDate: 2026-10-26
+expiryDate: 2026-12-31
 draft: false
 showHero: true
 heroStyle: basic
@@ -17,6 +17,8 @@ St. Stephen the First Martyr Maronite Church, Lehfed, Lebanon.
 Ordination will be live broadcasted by [Charity TV](https://www.charityradiotv.org/stream/livetv.html).
 
 The ordination will also be live broadcasted on [Facebook](https://www.facebook.com/share/19HsoPK5Cg/?mibextid=wwXIfr).
+
+{{< youtube qCuoPsIzIms >}}
 
 ---
 
