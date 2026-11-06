@@ -15,8 +15,8 @@ Located at
 Tuesday–Saturday: 10:00 {{< am >}} *(English)*  
 Sunday: 9:00 *(English)* & 11:30 {{< am >}} *(mixed Arabic and English)*
 
-### November 2, 2026: The Commemoration of the Faithful Departed
-7:30 {{< pm >}} *(mixed Arabic and English)*
+#### November 7, 2026: The Commemoration of the Faithful Departed
+5:00 {{< pm >}} *(mixed Arabic and English)*
 [Divine Liturgy Text (Faithful Departed)](faithfuldeparted.pdf)
 
 ***
