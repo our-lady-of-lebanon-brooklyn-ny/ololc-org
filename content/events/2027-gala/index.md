@@ -1,5 +1,5 @@
 ---
-title: "99th Annual St. Maron's Day Banquet"
+title: "100th Annual St. Maron's Day Banquet"
 date: 2027-02-06
 publishDate: 2026-11-07
 expiryDate: 2027-03-06
@@ -11,7 +11,7 @@ heroStyle: basic
 
 Please join us for our 100{{< sup >}}th{{</ sup >}} Annual St. Maron Day Gala.
 
-*Where:* [Giando on the Water](https://www.giandoonthewater.com/)
+*Where:* [Giando on the Water](https://www.giandoonthewater.com/)  
 *When:* 7pm, Saturday, February 6, 2027
 
 🍸 7pm Cocktail hour followed by Dinner, Dancing and Raffle.  
