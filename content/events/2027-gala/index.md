@@ -9,7 +9,7 @@ showSummary: true
 heroStyle: basic
 ---
 
-Please join us for our 100{{< sup >}}th{{</ sup >}} Annual St. Maron Day Gala.
+## Please join us for our 100{{< sup >}}th{{</ sup >}} Annual St. Maron Day Gala.
 
 *Where:* [Giando on the Water](https://www.giandoonthewater.com/)
 *When:* 7pm, Saturday, February 6, 2027
@@ -18,7 +18,14 @@ Please join us for our 100{{< sup >}}th{{</ sup >}} Annual St. Maron Day Gala.
 🎵 Entertainment by Kalem Issa.  
 Tickets: $3,000 VIP table; or $200 per person.
 
-For reservations, please contact
+For reservations
+
+{{<  donate >}}
+  {{< zeffy zeffy-form-link="https://www.zeffy.com/en-US/ticketing/100th-annual-st-marons-day-gala-commemorative-ad-book-form" message="## Purchase tickets online:" >}}
+{{< /donate >}}
+
+or contact
+
 * Darine Safi (347) 336-5265
 * Georges Elhaje (646) 691-9925
 
@@ -29,13 +36,6 @@ Place your congratulatory remarks, remember your deceased family members, and/or
 Click on the form below to download.  Send your completed form to cathrectory@verizon.net.
 Contact Mike Naber (917) 612-4004 if you have any questions.
 
-{{< street-address >}}
-
 [![Gala Ad Book Form](ad-book-form-2027.jpg)](ad-book-form-2027.pdf)
 
-
-
-{{<  donate >}}
-  {{< zeffy zeffy-form-link="https://www.zeffy.com/en-US/ticketing/100th-annual-st-marons-day-gala-commemorative-ad-book-form" message="## Purchase tickets online:" >}}
-{{< /donate >}}
 
