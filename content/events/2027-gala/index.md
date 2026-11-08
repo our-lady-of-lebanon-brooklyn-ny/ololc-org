@@ -36,3 +36,7 @@ Contact Mike Naber (917) 612-4004 if you have any questions.
 
 [![Gala Ad Book Form](ad-book-form-2027.jpg)](ad-book-form-2027.pdf)
 
+
+{{<  donate >}}
+  {{< zeffy zeffy-form-link="https://www.zeffy.com/en-US/ticketing/100th-annual-st-marons-day-gala-commemorative-ad-book-form" message="## Purchase an Ad Book page online:" >}}
+{{< /donate >}}
