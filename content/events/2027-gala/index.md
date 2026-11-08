@@ -29,7 +29,7 @@ or for reservations, contact
 
 {{< image path=st-maron-2027-1224x1584.png width=600 alt="Gala Brochure" >}}
 
-Place your congratulatory remarks, remember your deceased family members, and/or advertise your business in our *Commemorative Ad Book*.
+## Place your congratulatory remarks, remember your deceased family members, and/or advertise your business in our *Commemorative Ad Book*.
 
 Click on the form below to download.  Send your completed form to cathrectory@verizon.net.
 Contact Mike Naber (917) 612-4004 if you have any questions.
