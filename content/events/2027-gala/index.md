@@ -18,13 +18,11 @@ heroStyle: basic
 🎵 Entertainment by Kalem Issa.  
 Tickets: $3,000 VIP table; or $200 per person.
 
-For reservations
-
 {{<  donate >}}
   {{< zeffy zeffy-form-link="https://www.zeffy.com/en-US/ticketing/100th-annual-st-marons-day-gala-commemorative-ad-book-form" message="## Purchase tickets online:" >}}
 {{< /donate >}}
 
-or contact
+or for reservations, contact
 
 * Darine Safi (347) 336-5265
 * Georges Elhaje (646) 691-9925
@@ -37,5 +35,4 @@ Click on the form below to download.  Send your completed form to cathrectory@ve
 Contact Mike Naber (917) 612-4004 if you have any questions.
 
 [![Gala Ad Book Form](ad-book-form-2027.jpg)](ad-book-form-2027.pdf)
-
 
