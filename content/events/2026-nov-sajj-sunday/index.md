@@ -18,4 +18,4 @@ Join the Knights of St. Maron for traditional Lebanese food.
 * Lahm Bi Ajeen $10
 * Beverage $1
 
-{{< image path=flyer.png width=600 alt="Sajj Sunday" >}}
+{{< image path=flyer.jpg width=600 alt="Sajj Sunday" >}}
