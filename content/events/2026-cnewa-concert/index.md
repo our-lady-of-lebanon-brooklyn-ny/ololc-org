@@ -35,4 +35,4 @@ Purchase Tickets
 
 
 ---
-_The picture of Maya Malek was taken from the CNEWA Conert web page, https://cnewa.org/events/cnewas-christmas-concert-for-peace._
+_The picture of Maya Malek is from the CNEWA Concert web page, https://cnewa.org/events/cnewas-christmas-concert-for-peace._
