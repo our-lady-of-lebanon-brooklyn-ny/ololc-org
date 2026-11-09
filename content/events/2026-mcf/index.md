@@ -1,5 +1,5 @@
 ---
-title: "MCF &#x2014; Maronite Catholic Formation"
+title: "MCF — Maronite Catholic Formation"
 date: 2026-09-27
 publishDate: 2026-09-25
 expiryDate: 2027-05-31
