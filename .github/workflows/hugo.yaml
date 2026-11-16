@@ -49,10 +49,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y lftp
 
-      - name: Install poppler utils
+      - name: Install poppler utils and pdftk
         run: |
           # Installing poppler-utils PDF manipulation library
-          sudo apt-get install -y poppler-utils
+          sudo apt-get install -y poppler-utils pdftk
 
       - name: Verify installations
         run: |
@@ -61,6 +61,9 @@ jobs:
           echo '-----'
           echo 'lftp:'
           lftp --version | cat -n
+          echo '-----'
+          echo 'pdftk:'
+          pdftk --version | cat -n
           echo '-----'
 
       - name: Build the site
