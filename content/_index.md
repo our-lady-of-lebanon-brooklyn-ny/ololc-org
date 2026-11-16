@@ -15,9 +15,6 @@ Located at
 Tuesday–Saturday: 10:00 {{< am >}} *(English)*  
 Sunday: 9:00 *(English)* & 11:30 {{< am >}} *(mixed Arabic and English)*
 
-#### November 7, 2026: 40 Day Divine Liturgy
-5:00 {{< pm >}} *(mixed Arabic and English)*
-
 ***
 
 ## Livestream
