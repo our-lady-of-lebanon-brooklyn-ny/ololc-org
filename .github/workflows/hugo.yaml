@@ -76,9 +76,7 @@ jobs:
 
       - name: Make Sunday divine liturgy text
         env:
-          RCLONE_CONFIG_B2_TYPE: 'b2'
-          RCLONE_CONFIG_B2_ACCOUNT: '${{ secrets.RCLONE_CONFIG_B2_ACCOUNT }}'
-          RCLONE_CONFIG_B2_KEY: '${{ secrets.RCLONE_CONFIG_B2_KEY }}'
+          RCLONE_CONNECTION: ":b2,account='${{secrets.RCLONE_CONFIG_B2_ACCOUNT||',key='${{secrets.RCLONE_CONFIG_B2_KEY}}'"
         run: |
           # Create sunday.pdf
           set -o errexit

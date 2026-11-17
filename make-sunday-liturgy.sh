@@ -7,8 +7,8 @@
 #}
 
 # Instruct bash to be strict about error checking.
-set -e          # stop if an error happens
-set -u          # stop if an undefined variable is referenced
+set -o errexit  # stop if an error happens
+set -o nounset  # stop if an undefined variable is referenced
 set -o pipefail # stop if any command within a pipe fails
 set -o posix    # extra error checking
 
@@ -20,11 +20,11 @@ if [ -z "${fdLog:-}" ]; then
 fi
 declare -r -x fdLog
 
-rclone_source='b2:ololc-bucket/website/liturgy'
+rclone_source="${RCLONE_CONNECTION:-b2}:ololc-bucket/website/liturgy"
 tempDir="$(mktemp -d)"
 rc='0'
 (
-  eval "set -- $(jq --raw-output '[.season, .["word-file"], (.["reading-file"] // ""), .["anaphora-file"]] | @sh' 'sunday-liturgy.json' )"
+  eval "set -- $(jq --raw-output '[.season, .["word-file"], (.["reading-file"] // ""), .["anaphora-file"]] | @sh' )"
   season="$1"
   word="$2"
   reading="$3"
@@ -36,18 +36,22 @@ rc='0'
   tempCat="${tempDir}/cat.pdf"
 
   echo "$(date): Retrieving ${word}" >&"${fdLog}"
-  rclone copyto "${rclone_source}/${season}/${word}" "${tempWord}"
+  rclone --error-on-no-transfer copyto "${rclone_source}/${season}/${word}" "${tempWord}" || rc="$?"
+  [[ "${rc}" != 0 ]] && exit "${rc}"
 
   readingInsert=''
   readingHandle="R=${tempDir}/word.pdf"
   if [ -n "${reading}" ]; then
     echo "$(date): Retrieving ${reading}" >&"${fdLog}"
-    rclone copyto "${rclone_source}/${season}/${reading}" "${tempReading}"
+    rclone --error-on-no-transfer copyto "${rclone_source}/${season}/${reading}" "${tempReading}" || rc="$?"
+    [[ "${rc}" != 0 ]] && exit "${rc}"
+
     readingHandle="R=${tempReading}"
   fi
 
   echo "$(date): Retrieving ${anaphora}" >&"${fdLog}"
-  rclone copyto "${rclone_source}/Anaphora/${anaphora}" "${tempAnaphora}"
+  rclone --error-on-no-transfer copyto "${rclone_source}/Anaphora/${anaphora}" "${tempAnaphora}" || rc="$?"
+  [[ "${rc}" != 0 ]] && exit "${rc}"
 
   catOptions=(
     $(
@@ -63,7 +67,9 @@ rc='0'
   )
 
   echo "$(date): Combining files" >&"${fdLog}"
-  pdftk "W=${tempWord}" "${readingHandle}" "A=${tempAnaphora}" cat "${catOptions[@]}" output "${tempCat}"
+  pdftk "W=${tempWord}" "${readingHandle}" "A=${tempAnaphora}" cat "${catOptions[@]}" output "${tempCat}" || rc="$?"
+  [[ "${rc}" != 0 ]] && exit "${rc}"
+
   pdftk "${tempCat}" update_info \
     <(
       pdftk "${tempWord}" dump_data | grep --after-context=1 'InfoKey: Title'
