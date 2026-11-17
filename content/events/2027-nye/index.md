@@ -11,12 +11,12 @@ heroStyle: basic
 
 Please join us for our New Year Party!
 
-*Where:* The Cathedral's Hall
+*Where:* The Cathedral's Hall  
 *When:* 8{{< pm >}} to 2{{< am >}}, December 31, 2026
 
 Join us for an unforgettable New Year's Eve Party hosted by the MYA!
 
-Ejoy Music by DJ Elie
+Enjoy Music by *DJ Elie*
 
 Tickets: $150, 18 &amp; up; $100, ages 13 - 17; 12 and under -- free.
 
