@@ -54,6 +54,11 @@ jobs:
           # Installing poppler-utils PDF manipulation library
           sudo apt-get install -y poppler-utils pdftk
 
+      - name: Install rclone
+        run: |
+          # Installing rclone
+          sudo apt-get install -y rclone
+
       - name: Verify installations
         run: |
           echo 'Hugo:'
@@ -65,6 +70,19 @@ jobs:
           echo 'pdftk:'
           pdftk --version | cat -n
           echo '-----'
+          echo 'rclone:'
+          rclone --version | cat -n
+          echo '-----'
+
+      - name: Make Sunday divine liturgy text
+        env:
+          RCLONE_CONFIG_B2_TYPE: 'b2'
+          RCLONE_CONFIG_B2_ACCOUNT: '${{ secrets.RCLONE_CONFIG_B2_ACCOUNT }}'
+          RCLONE_CONFIG_B2_KEY: '${{ secrets.RCLONE_CONFIG_B2_KEY }}'
+        run: |
+          # Create sunday.pdf
+          set -o errexit
+          ./make-sunday-liturgy.sh <sunday-liturgy.json >static/sunday.pdf
 
       - name: Build the site
         run: |
