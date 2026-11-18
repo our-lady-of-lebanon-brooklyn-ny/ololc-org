@@ -1,0 +1,11 @@
+  .liturgy as $liturgy
+| ( $liturgy.word-docs[] | select ( .pages[$liturgy.word] )) as $season
+| $season.pages[$liturgy.word] as $wordDoc
+| $liturgy.anaphora-docs[.anaphora] as $anaphoraDoc
+
+| pick ( ["output"] )
+| .season        = $season.season 
+| .word-file     = $wordDoc.file
+| .anaphora-file = $anaphoraDoc.file
+| ( select ( $wordDoc.reading-page ) | .reading-page ) = $wordDoc.reading-page
+| ( select ( $liturgy.reading-file ) | .reading-file ) = $liturgy.reading-file

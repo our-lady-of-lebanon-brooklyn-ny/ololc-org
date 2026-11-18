@@ -1,0 +1,85 @@
+liturgy:
+  word: 27
+  anaphora: 774
+
+  word-docs:
+    - season: 'Season 1 The Glorious Birth of Our Lord'
+      pages:
+        7:
+          file: 'Sunday of the Consecration & Dedication of the Church.pdf'
+
+        18:
+          file: 'Announcement to Zechariah.pdf'
+
+        27:
+          file: 'Announcement to Mary.pdf'
+
+        38:
+          file: 'Visitation of Mary Liturgy.pdf'
+
+        48:
+          file: 'Birth of John Liturgy.pdf'
+
+        57:
+          file: 'Revelation to Joseph.pdf'
+
+        66:
+          file: 'Genealogy.pdf'
+
+        76:
+          file: 'Gloriour Birth.pdf'
+
+        87:
+          file: 'Finding of the Lord in the Temple.pdf'
+
+        97:
+          file: 'Circumcision.pdf'
+
+    - season: 'Season 2 The Glorious Epiphany'
+      pages:
+        107:
+          file: 'Epiphany'
+          readings-page: 9
+
+        138:
+          file: 'Presentation of the Lord.pdf'
+          # Reading included in pdf
+
+        147:
+          file: 'Priest Liturgy.pdf'
+          # Reading included in pdf
+
+        157:
+          file: 'Righteous and the Just Liturgy.pdf'
+          # Reading included in pdf
+
+        166:
+          file: 'Faithful Departed Liturgy.pdf'
+          # Reading included in pdf
+
+  anaphora-docs:
+    754:
+      file: 'Anaphora pack Twelve Apostles.pdf'
+
+    774:
+      file: 'Anaphora pack St. Peter.pdf'
+
+    794:
+      file: 'Anaphora pack St. James.pdf'
+
+    815:
+      file: 'Anaphora pack St. John.pdf'
+
+    835:
+      file: 'Anaphora pack St. Mark.pdf'
+
+    856:
+      file: 'Anaphora pack St. Sixtus.pdf'
+
+    876:
+      file: 'Anaphora pack St. John Chrysostom.pdf'
+
+    897:
+      file: 'Anaphora pack St. John Maron.pdf'
+
+output: "static/sunday.pdf"

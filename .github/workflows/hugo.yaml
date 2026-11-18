@@ -80,7 +80,9 @@ jobs:
         run: |
           # Create sunday.pdf
           set -o errexit
-          ./make-sunday-liturgy.sh <sunday-liturgy.json >static/sunday.pdf
+          set -o pipefail
+
+          yq -o json ./liturgy-pages.yq ./sunday-liturgy.yaml | ./make-sunday-liturgy.sh >"$(yq -o tsv '.output' ./sunday-liturgy.yaml)"
 
       - name: Build the site
         run: |

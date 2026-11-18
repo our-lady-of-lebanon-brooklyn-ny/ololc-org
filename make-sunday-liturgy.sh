@@ -24,11 +24,12 @@ rclone_source="${RCLONE_CONNECTION:-b2}:ololc-bucket/website/liturgy"
 tempDir="$(mktemp -d)"
 rc='0'
 (
-  eval "set -- $(jq --raw-output '[.season, .["word-file"], (.["reading-file"] // ""), .["anaphora-file"]] | @sh' )"
+  eval "set -- $(jq --raw-output '[.season, .["word-file"], (.["reading-file"] // ""), (.["reading-page"] // ""), .["anaphora-file"]] | @sh' )"
   season="$1"
   word="$2"
   reading="$3"
-  anaphora="$4"
+  readingInsert="$4"
+  anaphora="$5"
 
   tempWord="${tempDir}/word.pdf"
   tempReading="${tempDir}/reading.pdf"
@@ -39,7 +40,6 @@ rc='0'
   rclone --error-on-no-transfer copyto "${rclone_source}/${season}/${word}" "${tempWord}" || rc="$?"
   [[ "${rc}" != 0 ]] && exit "${rc}"
 
-  readingInsert=''
   readingHandle="R=${tempDir}/word.pdf"
   if [ -n "${reading}" ]; then
     echo "$(date): Retrieving ${reading}" >&"${fdLog}"
