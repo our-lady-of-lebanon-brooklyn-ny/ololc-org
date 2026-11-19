@@ -84,6 +84,16 @@ jobs:
 
           yq -o json ./liturgy-pages.yq ./sunday-liturgy.yaml | ./make-sunday-liturgy.sh >"$(yq -o tsv '.output' ./sunday-liturgy.yaml)"
 
+      - name: Retrieve bulletins
+        env:
+          RCLONE_CONNECTION: ":b2,account='${{secrets.RCLONE_CONFIG_B2_ACCOUNT}}',key='${{secrets.RCLONE_CONFIG_B2_KEY}}'"
+        run: |
+          # Retrieve bulletins
+          set -o errexit
+          set -o pipefail
+
+          rclone --verbose copy "${RCLONE_CONNECTION}:ololc-bucket/bulletins" 'content/bulletins'
+
       - name: Build the site
         run: |
           hugo build

@@ -1,6 +1,12 @@
 #!/bin/bash
 
+set -o errexit
+set -o pipefail
+set -o nounset
+set -o posix
+
 pdf="$1"
+title="$2"
 
 pdfName="$(sed -e 's/.pdf//' <<<"${pdf}" )"
 dashDate="$(sed -e 's/\(..\)\(..\)\(..\)-bulletin/20\1-\2-\3/' <<<"${pdfName}" )"
@@ -13,7 +19,10 @@ mkdir -p "${pdfName}"
   fi
   if [ -e 'index.md' ]; then
     titleLine="$( grep '^title:' 'index.md' )"
+  else
+    titleLine="title: ${title}"
   fi
+
   (
     echo '---'
     if [ -n "${titleLine}" ] ; then
@@ -26,4 +35,7 @@ mkdir -p "${pdfName}"
     echo 'draft: false'
     echo '---'
   ) >index.md
+
 )
+
+rclone move "${pdf}" "${RCLONE_CONNECTION_STRING:-b2}:ololc-bucket/bulletins"
