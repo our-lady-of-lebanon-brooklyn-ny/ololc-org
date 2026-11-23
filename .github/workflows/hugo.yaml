@@ -97,14 +97,17 @@ jobs:
           # Retrieve bulletins put into storage only recently.  Older bulletins are already assumed to be on the web server and
           # we don't need to copy them over ourselves.  rclone can synchronize the contents but I've seen the ftp web server
           # side timeout and cause problems. So we just assume it is up to date with all but the latest bulletins.
-          rclone --verbose copy "${RCLONE_CONNECTION}:ololc-bucket/website/bulletins" --max-age '4m' 'content/bulletins'
+          rclone --verbose copy "${RCLONE_CONNECTION}:ololc-bucket/website/bulletins" --max-age '4M' --include '*.pdf' 'content/bulletins'
 
       - name: Build the site
         run: |
           hugo build
 
-          cp content/bulletins/*.pdf public/bulletins
-          cp content/about-us/scholarships/*.pdf public/about-us/scholarships
+          for dir in bulletins about-us/scholarships ; do
+            mkdir -p "public/${dir}"
+            find "content/${dir}" -name '*.pdf' | xargs --no-run-if-empty -I '{}' cp '{}' "public/${dir}"
+          done
+
           mkdir public/doc
           cp static/sunday.pdf public/doc
 
