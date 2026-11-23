@@ -92,10 +92,12 @@ jobs:
           set -o errexit
           set -o pipefail
 
+          mkdir -p content/bulletins
+
           # Retrieve bulletins put into storage only recently.  Older bulletins are already assumed to be on the web server and
           # we don't need to copy them over ourselves.  rclone can synchronize the contents but I've seen the ftp web server
-          # side timeout and cause problems. So we just assume it is up to date with all but the very latest bulletins.
-          rclone --verbose copy "${RCLONE_CONNECTION}:ololc-bucket/website/bulletins" --max-age '2d' 'content/website/bulletins'
+          # side timeout and cause problems. So we just assume it is up to date with all but the latest bulletins.
+          rclone --verbose copy "${RCLONE_CONNECTION}:ololc-bucket/website/bulletins" --max-age '7d' 'content/bulletins'
 
       - name: Build the site
         run: |
